@@ -12,7 +12,7 @@ https://github.com/adsbfi/mlat-server.
 Due to conflicting packages with the same name, it's recommended to install in a Python virtual environment.
 First set the direcory you'd like to install to, if that path is not writeable by your user, use `sudo su` to become root first.
 ```
-VENV=/usr/local/share/wiedehopf-mlat-client/venv
+VENV=/usr/local/share/adsbfi-mlat-client/venv
 ```
 Now the build / install, it's not a bad idea to recreate the virtual environment when rebuilding:
 ```
@@ -25,9 +25,8 @@ python3 setup.py install
 
 To run it, invoke:
 ```
-/usr/local/share/wiedehopf-mlat-client/venv/bin/mlat-client
+/usr/local/share/adsbfi-mlat-client/venv/bin/mlat-client
 ```
-
 
 ## Running
 
@@ -53,9 +52,9 @@ server's administrator for configuration instructions.
 crippled timestamp in its output, making it useless for multilateration.
 If you have one of these, you should ask FR24 to fix this.
 
-## License
+## Original License
 
-Copyright 2015, [Oliver Jowett](mailto:oliver@mutability.co.uk).
+Copyright 2023, [Oliver Jowett](mailto:oliver@mutability.co.uk).
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
