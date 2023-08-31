@@ -53,7 +53,7 @@ If you have one of these, you should ask FR24 to fix this.
 
 ## Original License
 
-Copyright 2023, [Oliver Jowett](mailto:oliver@mutability.co.uk).
+Copyright 2015, [Oliver Jowett](mailto:oliver@mutability.co.uk).
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
