@@ -4,7 +4,7 @@ This is a client that selectively forwards Mode S messages to a
 server that resolves the transmitter position by multilateration of the same
 message received by multiple clients.
 
-The corresponding server code is available at
+The supporting server code is available at
 https://github.com/adsbfi/mlat-server.
 
 ## Building
@@ -30,9 +30,8 @@ To run it, invoke:
 
 ## Running
 
-If you are using this with piaware, you don't need to do anything special
-other than to make sure that fa-mlat-client is available on your $PATH.
-piaware will detect the presence of the client and start it when needed.
+Used in conjuction with the following scripts
+https://github.com/adsbfi/adsb-fi-scripts
 
 If you are connecting to a third party multilateration server, contact the
 server's administrator for configuration instructions.
